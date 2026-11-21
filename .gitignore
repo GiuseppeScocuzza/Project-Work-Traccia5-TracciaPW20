@@ -1,0 +1,15 @@
+# Ambienti virtuali e cache Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Variabili d'ambiente sensibili
+.env
+
+# File generati a runtime (opzionali: rimuovi le righe se vuoi versionarli)
+dataset_recensioni_hotel.csv
+batch_predictions_output.csv
+*.pkl
